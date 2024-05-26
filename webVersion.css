@@ -1,0 +1,319 @@
+
+#frame {
+  position: relative;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  height: 450px;
+  padding-block: 30px; 
+  color: white;
+  text-align: center;
+  z-index: 1;
+
+}
+#frameH,#frameF{
+    width: 100%;
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: space-around;
+}
+.frameH > div {
+
+  }
+#m1 {
+  height: 50px;
+  width: 50px;
+  border-left: 4px solid gray;
+  border-top: 4px solid gray;
+  border-top-left-radius: 10%;
+}
+#m2 {
+  height: 50px;
+  width: 50px;
+  border-right: 4px solid gray;
+  border-top: 4px solid gray;
+  border-top-right-radius: 10%;
+}
+#m3 {
+  height: 50px;
+  width: 50px;
+  border-left: 4px solid gray;
+  border-bottom: 4px solid gray;
+  border-bottom-left-radius: 10%;
+}
+#m4 {
+  height: 50px;
+  width: 50px;
+  border-right: 4px solid gray;
+  border-bottom: 4px solid gray;
+  border-bottom-right-radius: 10%;
+}
+#camera-background {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+
+}
+#row {
+  height: 657px;
+  
+}
+#ftr {
+  position: relative;
+  z-index: 1;
+  padding: 20px; /* Ajoutez un espacement intérieur au cadre */
+  color: white; /* Couleur du texte à l'intérieur du cadre */
+  text-align: center;
+  margin-top: 130px;
+  padding-inline: 7%; 
+  display: flex;
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: flex-end; 
+}
+#hdr {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Centrer les éléments verticalement */
+    padding: 0 7px; /* Ajouter un padding de 7px à gauche et à droite */
+    color: white; 
+}
+.logo1{
+ margin: 4%;
+    width: 16%;
+    height: 30px;
+}
+#btn1{
+    margin: 4%;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 160px;
+    height: 36px;
+    font-size: small;
+}
+#bdy{
+  display: flex;
+  flex-direction: row;
+}
+#arrow{
+  margin-top:230px ;
+  font-size: xx-large;
+}
+#btn2{
+ 
+  border: 2px solid rgb(27, 21, 112);
+  background-color: rgb(18, 18, 64);
+  color: white;
+  border-radius: 30px;
+ width: 80px;
+  height: 44px;
+  font-size: small;
+}
+#msg{
+  color: rgb(183, 183, 183);
+  background-color: rgb(67, 67, 67);
+  border-radius: 10px;
+  padding: 2px;
+  width: 100%;
+  font-size: small;
+padding-inline: 20px;
+
+
+}
+#heart{
+  border: 2px solid rgb(27, 21, 112);
+  background-color: rgb(18, 18, 64);
+  color: white;
+  border-radius: 100px;
+  height: 37px;
+  width:37px;
+  padding: 5px;
+}
+#part2 {
+
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  background-image: 
+    linear-gradient(to right top, rgb(195, 202, 255)20%, rgb(250, 210, 235)   ,rgb(255, 252, 255) 70%) ;
+}
+#cpart2{
+  background-color: white;
+  height: 80vh;
+  border: 2px solid ;
+  border-radius: 20px;
+  margin: 13%;
+}
+.logo2{
+  margin: 7px;
+  width: 180px;
+  height: 150px;
+}
+.container{
+  padding-inline: 10%;
+}
+.colr1{
+  background-color:black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.colr2{
+  background-color:rgb(66, 131, 217);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.colr3{
+  background-color:rgb(255, 81, 214);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.colr{
+  display: flex;
+  margin-top: -10px;
+}
+.colr > div {
+  margin-right: 6px;
+}
+.p1{
+  font-size: 20px;
+  margin-top: 40px;
+  color: rgb(182, 182, 182);
+}
+#bdy2{
+  display: flex;
+}
+#bdy2 > div {
+ 
+}
+#btn3{
+  height: 46px;
+border-radius: 30px;
+  background-color: white;
+  border: 1px solid;
+  padding-inline: 3%;
+  margin-inline: 4%;
+  width: 310px;
+
+}
+#btn4{
+  height: 46px;
+  border-radius: 30px;
+    background-color: rgb(255, 35, 204);
+    border: 1px solid;
+    color: white;   
+    padding-inline: 3%;
+  margin-inline: 2%;
+  width: 290px;
+
+
+}
+#ftr2{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10%;
+}
+@media (max-width: 400px) {
+  #ftr2 {
+    margin-top: 10px; 
+    font-size: 10px;
+  }
+  #btn3{
+    font-size: 9px;
+    margin-right: 2px;
+    height: 30px;
+  }
+  #btn4{
+    margin-left: 2px;
+    font-size: 9px;
+    height: 30px;
+  }
+  #ftr{
+    margin-top: 10px;
+  }
+  #msg{
+    font-size: 11px;
+  }
+  .logo2{
+    margin: 3px;
+    width: 80px;
+    height: 60px;
+  }
+  #ftr2 i{
+    width: 10px;
+    height: 10px;
+  font-size: 9px;
+    
+  }
+  #frameH{
+    margin-bottom: 129px;
+    margin-top: 50px;
+  }
+  #arrow{
+    margin-top: 224px;
+    font-size: large;
+  }
+  #m1 {
+    height: 30px;
+    width: 30px;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-top-left-radius: 10%;
+  }
+  #m2 {
+    height: 30px;
+    width: 30px;
+    border-right: 2px solid gray;
+    border-top: 2px solid gray;
+    border-top-right-radius: 10%;
+  }
+  #m3 {
+    height: 30px;
+    width: 30px;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-bottom-left-radius: 10%;
+  }
+  #m4 {
+    height: 30px;
+    width: 30px;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-bottom-right-radius: 10%;
+  }
+  #espace{
+    margin: 20%;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+#ftr2 i{
+  margin: 7px;
+  width: 20px;
+  padding: 2px;
+  height: 20px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  font-size: large;
+}
+#espace{
+  margin: 20%;
+}
